@@ -1,7 +1,5 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-pink-pet-pawprints-and-hearts-vector-id1197978961?k=20&m=1197978961&s=612x612&w=0&h=BUGuZO7i8-s8rGnPst_aOUndxYxKWSlpmlKTb0JVgbQ=);
-    font-size: large;
 }
 
 .nav{
@@ -36,7 +34,7 @@ img{
     float: left;
     width: 25%;
     padding: 4px;*/
-    background-color: transparent ;
+    background-color:#B0E0E6; 
     width: 25%;
     float: left;
     margin-right: 10px;
