@@ -1,0 +1,54 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav{
+}
+
+.button{
+    background-color:#B0E0E6;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding:15px 30px;
+    margin: 4px 2px;
+    display: inline;
+}
+
+.button:hover{
+    background-color:#00BFFF ;
+
+}
+
+    
+img{
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+.linha{
+    display: flex;
+}
+.coluna{
+    /*margin-right: 150px;
+    float: left;
+    width: 25%;
+    padding: 4px;*/
+    background-color:#B0E0E6; 
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+.coluna:hover{
+background-color: #00BFFF;
+}
+
+#gradiente1{
+    height: 100px;
+    background-color:#B0E0E6;
+}
+
