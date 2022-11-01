@@ -1,0 +1,21 @@
+.linha{
+    display: flex;
+}
+.coluna{
+    background-image: url(https://cache.desktopnexus.com/thumbseg/2128/2128352-bigthumbnail.jpg); 
+    width: 75%;
+    float: center;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-left: 10%;
+    float: center;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+#text{
+background-color: white;
+border-radius: 5px;
+}
