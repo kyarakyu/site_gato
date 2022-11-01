@@ -8,45 +8,17 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/vetor.png">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
 </head>
-<style>
- .navbar{
- background-image: linear-gradient(#00BFFF,#EE82EE); 
- } 
- 
-</style>
+
 <body>
     <div id="gradiente1">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="img/vetor.png" width="40px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <img src="img/kisspng-dog-cat-paw-puppy-clip-art-black-paw-prints-5b4f0394050df1.2754350115319049160207.png" width="24px"> Opções 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="racas.html">Raças de gatos mais populares no Brasil</a>
-                    <a class="dropdown-item" href="cuidados.html">Cuidados com o seu gato</a>
-                    <a class="dropdown-item" href="contatos.html">Contatos</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-              </form>
-            </div>
-          </nav>
+    <nav>
+        <img src="./img/vetor.png" width="50px">
+        <a class="button" href="racas.html">Raças de gatos mais populares no Brasil</a>
+        <a class="button" href="cuidados.html">Cuidados com seu gato</a>
+        <a class="button" href="contatos.html">Contatos</a>
+        
+    </nav>
 </div>
     <img src="./img/banner.jpg" width=100%>
 
@@ -55,7 +27,7 @@
     <div class="linha">
         <div class="coluna">
             <center>
-            <img src="./img/gato-arranhando-sofa.jpg" width=100%><br>
+            <img src="./img/gato-cat.gif" width=100%><br>
             <p>Gatos arranham objetos por instinto felino para deixar as unhas afiadas
             Além disso, essa prática é uma ótima forma do gato marcar seu território. 
             Quando arranha um objeto, o gato deixa seu cheiro nele além de deixar claro visualmente 
@@ -67,7 +39,7 @@
         </center>
         </div>
         <div class="coluna">
-            <center><img src="./img/como-o-gato-se-comunica-felino.jpg" width=100%><br>
+            <center><img src="./img/cat-mouse.gif" width=100%><br>
                <p> O cérebro de um gato é mais parecido com o de um humano do que com o de um cachorro
                 Tanto gatos quanto seres humanos possuem uma região do cérebro 
                 idêntica, que é responsável pelas emoções. Além disso, seu genoma é 73%
@@ -76,7 +48,7 @@
                 </center>
         </div>
         <div class="coluna">
-            <center><img src="./img/maxresdefault-1024x640.jpg" width=100%><br>
+            <center><img src="./img/tumblr_16fc7c557c62ec454ada712876b5e368_ee8c418d_500.gif" width=95%><br>
                <p> O salto de um gato pode ter até 5 vezes a sua altura
                 Aparentemente, nossos bichanos favoritos tem verdadeiras 
                 molas no lugar das patas, não é mesmo? O recorde mundial de pulo mais alto foi dado por um gato chamado Nyah-Suke, que vive no Japão, 
@@ -84,8 +56,36 @@
              </p>
             </center>
         </div>
+        <div class="coluna">
+            <center><img src="./img/cats-falling.gif" width=90%><br>
+               <p> Alguns gatos já sobreviveram a quedas de 20 metros, devido ao reflexo de endireitamento. Os seus olhos,
+                 os órgãos e ouvido interno, dizem ao gato onde é que ele está no espaço, para que ele consiga aterrar em 
+                 pé. Mesmo os gatos sem cauda possuem esta capacidade.
+             </p>
+            </center>
+        </div>
     </div>
-
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./img/gato-cat.gif" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
     
 <hr>       
 <h3 style="background-color: #B0E0E6">
@@ -93,9 +93,7 @@
        <br> Desenvolvido por Kyara<br>
     </center>
 </h3>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
