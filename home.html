@@ -8,17 +8,45 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/vetor.png">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
 </head>
-
+<style>
+ .navbar{
+ background-image: linear-gradient(#00BFFF,#EE82EE); 
+ } 
+ 
+</style>
 <body>
     <div id="gradiente1">
-    <nav>
-        <img src="./img/vetor.png" width="50px">
-        <a class="button" href="racas.html">Raças de gatos mais populares no Brasil</a>
-        <a class="button" href="cuidados.html">Cuidados com seu gato</a>
-        <a class="button" href="contatos.html">Contatos</a>
-        
-    </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/vetor.png" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <img src="img/kisspng-dog-cat-paw-puppy-clip-art-black-paw-prints-5b4f0394050df1.2754350115319049160207.png" width="24px"> Opções 
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="racas.html">Raças de gatos mais populares no Brasil</a>
+                    <a class="dropdown-item" href="cuidados.html">Cuidados com o seu gato</a>
+                    <a class="dropdown-item" href="contatos.html">Contatos</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </nav>
 </div>
     <img src="./img/banner.jpg" width=100%>
 
@@ -65,7 +93,9 @@
        <br> Desenvolvido por Kyara<br>
     </center>
 </h3>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
